@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example.springboot</groupId>
-	<artifactId>spring-boot-crud</artifactId>
+	<artifactId>springboot-crud-rest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>spring-boot-crud</name>
+	<name>springboot-crud-rest</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
