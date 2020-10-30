@@ -8,20 +8,20 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "employees")
+@Table(name = "EMPLOYEES")
 public class Employee {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private long id;
+	private int id;
 	
-	@Column(name="firts_name", nullable = false)
+	@Column(name="FIRST_NAME", nullable = false)
 	private String firstName;
 	
-	@Column(name="last_name", nullable = false)
+	@Column(name="LAST_NAME", nullable = false)
 	private String lastName;
 	
-	@Column(name="email_address", nullable = false)
+	@Column(name="EMAIL", nullable = false)
 	private String emailId;
 
 	public Employee() {
@@ -35,11 +35,11 @@ public class Employee {
 		this.emailId = emailId;
 	}
 
-	public long getId() {
+	public int getId() {
 		return id;
 	}
 
-	public void setId(long id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 
